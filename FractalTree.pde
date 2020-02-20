@@ -44,11 +44,11 @@ void keyPressed(){
      //System.out.println(smallestBranch);
   }
   if( keyCode == LEFT){
-    branchAngle += .2;
+    branchAngle += .05;
     //System.out.println(smallestBranch);
   }
   if(keyCode == RIGHT){
-    branchAngle -= .2;
+    branchAngle -= .05;
     // System.out.println(smallestBranch);
   }
   redraw();
